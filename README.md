@@ -25,22 +25,22 @@ ReadOutLoud is a simple web application that converts text from PDF files into s
 git clone https://github.com/tradervijeth/ReadOutLoud.git
 cd ReadOutLoud
 
-###2. Set Up a Virtual Environment
+### 2. Set Up a Virtual Environment
 
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-###3. Install Required Packages
+### 3. Install Required Packages
 
 pip install flask pyttsx3 PyPDF2 pyobjc
 
-###4. Create Necessary Directories and Files
+### 4. Create Necessary Directories and Files
 
 mkdir static templates uploads
 touch static/style.css templates/index.html app.py
 touch static/favicon.ico  # optional
 
-###5. Run the Application
+### 5. Run the Application
 
 python app.py
 
